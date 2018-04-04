@@ -14,8 +14,11 @@ use cmf\controller\HomeBaseController;
 
 class IndexController extends HomeBaseController
 {
+    /**
+     * 小程序接口
+     */
     public function index()
     {
-        return $this->fetch(':index');
+        echo "emmmm";
     }
 }
